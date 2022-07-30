@@ -66,7 +66,6 @@ public class Main {
                     for (Room rm : roomList) {
                         for (RoomReservation roomReservation : rm.getRoomReservations()) {
                             roomReservation.printReservationInfo();
-                            // System.out.println("Booking Number Is: " + roomReservation.getBookingNumber());
                         }
                     }
                 }
